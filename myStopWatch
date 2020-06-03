@@ -1,0 +1,4 @@
+import tkinter
+from datetime import datetime
+counter = 66600
+running = False
