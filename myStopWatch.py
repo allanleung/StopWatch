@@ -44,6 +44,7 @@ def Reset(label):
 
 root = tkinter.Tk()
 root.title('myStopWatch')
+root.wm_iconbitmap('istockphoto-918962870-1024x1024.ico')
 root.minsize(width=300, height=100)
 label = tkinter.Label(root,texts="StopWatch", fg="black", font="Verdana 24 bold")
 label.pack()
